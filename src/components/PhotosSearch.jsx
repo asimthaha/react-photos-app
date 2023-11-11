@@ -8,7 +8,7 @@ const PhotosSearch = () => {
       <div className="container">
         <div className="row">
           <div className="col">
-            <div className="row">
+            <div className="row g-3">
               <div className="col col-12">
                 <label htmlFor="" className="form-label">
                   Search Photos

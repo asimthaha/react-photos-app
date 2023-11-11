@@ -23,14 +23,14 @@ const PhotosView = () => {
       <div className="container">
         <div className="row">
           <div className="col">
-            <div className="row">
+            <div className="row g-3">
               {data.map((value, index) => {
                 return (
-                  <div className="col col-12 col-md-6 col-sm-6 col-lg-4 col-xl-3 col-xxl-3">
+                  <div className="col col-12 col-md-6 col-sm-6 col-lg-4 col-xl-3 col-xxl-2 card-group">
                     <div class="card">
                       <img src={value.url} class="card-img-top" alt="..." />
                       <div class="card-body">
-                        <h1 class="card-text">Title: {value.title}</h1>
+                        <h3 class="card-text">Title: {value.title}</h3>
                         <p className="card-text">
                           Thumbnail{value.thumbnailUrl}
                         </p>

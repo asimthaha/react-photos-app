@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const PhotosNavbar = () => {
   return (
     <div>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <nav class="navbar navbar-expand-lg bg-body-secondary">
         <div class="container-fluid">
           <Link class="navbar-brand" to="/">
             Photos App

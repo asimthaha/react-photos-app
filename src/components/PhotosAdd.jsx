@@ -1,13 +1,14 @@
 import React from "react";
+import PhotosNavbar from "./PhotosNavbar";
 
 const PhotosAdd = () => {
   return (
     <div>
-      <PhotosAdd />
+      <PhotosNavbar />
       <div className="container">
         <div className="row">
           <div className="col">
-            <div className="row">
+            <div className="row g-3">
               <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
                 <label htmlFor="" className="form-label">
                   Album Id
